@@ -16,7 +16,7 @@ public class Main {
         //Proveedores
         Proveedores proveedores = new Proveedores("Xiaomi","7675",Calendar.getInstance().getTime(),Calendar.getInstance().getTime());
         //Factura
-        Factura factura = new Factura(2223,Calendar.getInstance().getTime(),9899,"Xiaomi",40);
+        Factura factura = new Factura(2223,Calendar.getInstance().getTime(),9899,"XIAOMI",40);
 
         
 

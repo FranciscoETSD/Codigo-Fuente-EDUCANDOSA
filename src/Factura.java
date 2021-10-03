@@ -4,10 +4,10 @@ public class Factura {
     private int Numerodeentrada;
     private Date Fecha;
     private int NumeroFactura;
-    private Proveedores Proveedor;
+    private String Proveedor;
     private int items;
 
-    public Factura(int numerodeentrada, Date fecha, int numeroFactura, Proveedores proveedor, int items) {
+    public Factura(int numerodeentrada, Date fecha, int numeroFactura, String proveedor, int items) {
         Numerodeentrada = numerodeentrada;
         Fecha = fecha;
         NumeroFactura = numeroFactura;
@@ -39,11 +39,11 @@ public class Factura {
         NumeroFactura = numeroFactura;
     }
 
-    public Proveedores getProveedor() {
+    public String getProveedor() {
         return Proveedor;
     }
 
-    public void setProveedor(Proveedores proveedor) {
+    public void setProveedor(String proveedor) {
         Proveedor = proveedor;
     }
 
